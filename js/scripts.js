@@ -101,9 +101,10 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
+// ! -------------------------  loader -----------------------
 $(window).on("load", function () {
-  // $(".loader-wrapper").fadeIn(10);
-  $(".loader-wrapper").delay(1000).fadeOut(800);
+  $(".loader-wrapper").fadeIn(10);
+  $(".loader-wrapper").delay(500).fadeOut(800);
 });
 
 // var slideIndex = 1;
