@@ -256,6 +256,9 @@ section.resume-section .resume-section-content {
     h1{
       font-size : 4rem;
     }
+    h2{
+      font-size : 2.8rem;
+    }
     .socials {
       flex-direction: column;
       align-items: center;
