@@ -1,508 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Resume-Ohm</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/1200px-Greek_uc_Omega.svg.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MyResume</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+
+  <link href="assets/img/profile-img.jpg " rel="icon">
+ 
+
+  <script
       src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <!-- My CSS -->
-    <link href="css/mystyles.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-    
-    
-    
-  </head>
-  <!-- <body
-    id="page-top"
-    onload="document.body.className += ' loaded';"
-    class="fadein"
-  > -->
-  <body id="page-top">
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-        
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      id="sideNav"
-    >
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none ">Weerayooth Manawanich</span>
-        <span class="d-none d-lg-block"
-          ><img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="assets/img/IMG_8062.JPG"
-            alt=""
-        /></span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
-              >Experience</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
-              >Education</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#certifications"
-              >Certifications</a
-            >
-          </li>
-        </ul>
-      </div>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
     </nav>
 
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-      <!-- About-->
-      <section class="resume-section" id="about">
-        <div class="resume-section-content">
-          <h1 class="mb-0">
-            Weerayooth
-            <span class="text-primary">Manawanich</span>
-          </h1>
-          <h2 class="mb-3 mt-1">
-            <a
-              href="#"
-              class="typewrite"
-              data-period="2000"
-              data-type='[ "I am Fullstack.", "I am Developer.", "I Love Design.", "I Love to Photograph." ]'
-            >
-            </a>
-            <span class="wrap"></span>
-          </h2>
-          <div class="subheading mb-5"><i class="fas fa-map-marker-alt"></i>
-            <span class="myLocation"en>35/105 Phiboonsongkram Rd.· Suanyai, Muang · Nonthaburi</span>
-            <!-- <a href="mailto:weerayooth.ma@gmail.com">weerayooth.ma@gmail.com</a> -->
-          </div>
-          <p class="lead mb-5">
-            A Software Developer graduated from Coding Bootcamp. Proficient with
-            HTML, CSS and JavaScript including with cutting edge web frameworks.
-            Strong problem-solving and fast learning skills. Strong
-            communication skills both verbal and writing.
-          </p>
-           <!-- <div class="social-icons">
-             <a
-              class="social-icon"
-              href="https://www.linkedin.com/in/weerayooth-manawanich-b065891b0/"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="social-icon" href="https://github.com/WeerayoothM"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              class="social-icon"
-              href="https://web.facebook.com/ohm.manawanich"
-              ><i class="fab fa-facebook-f"></i
-            ></a> 
-          </div>  -->
-          <!-- <ul class="socials">
-            <li>
-              <a href="https://web.facebook.com/ohm.manawanich">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-                <span>Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/weerayooth-manawanich-b065891b0/">
-                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                <span>Linkedin</span>
-              </a>
-            </li>
-            <li>
-              <a href="mailto:weerayooth.ma@gmail.com">
-                <i class="fab fa-google-plus-g" aria-hidden="true"></i>
-                <span>G-mail</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/WeerayoothM">
-                <i class="fab fa-github" aria-hidden="true"></i>
-                <span>GitHub</span>
-              </a>
-            </li> -->
-            <div class="socials mt-1">
-                <div>
-                  <a href="https://web.facebook.com/ohm.manawanich">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span>Facebook</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.linkedin.com/in/weerayooth-manawanich-b065891b0/">
-                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                    <span>Linkedin</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="mailto:weerayooth.ma@gmail.com">
-                    <i class="fab fa-google-plus-g" aria-hidden="true"></i>
-                    <span>G-mail</span>
-                  </a>
-                </div>
-                <div>
-                  <a href="https://github.com/WeerayoothM">
-                    <i class="fab fa-github" aria-hidden="true"></i>
-                    <span>GitHub</span>
-                  </a>
-                </div>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>WEERAYOOTH MANAWANICH</h1>
+      <p>I'm <span class="typed" data-typed-items="Web Developer,Mobile Developer"></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/weerayooth-manawanich/" target="_blank" class="twitter"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://web.facebook.com/ohm.manawanich" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://github.com/WeerayoothM" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Me</h2>
+          <h4>Hi, I'm Weerayooth. Nice to meet you</h4>
+      
         </div>
-      </section>
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">management Intern</h3>
-              <div class="subheading mb-3">
-                property management of chulalongkorn university
+
+        <div class="row">
+          <div class="col-lg-4 d-flex justify-content-center">
+            <img src="https://res.cloudinary.com/software-park-thailand/image/upload/v1620311583/1609780090358-01_nr0toc.jpg" class=" rounded-circle object-fit-cover" alt="" height="100%" width="80%" >
+          </div>
+          <div class=" col-lg-7 pt-4 pt-lg-0 mr-4 content d-flex align-items-center">
+            <div class="bd-left pl-4 col-lg-12">
+              
+              <div class="row pl-2">
+                <p>
+                  Since beginning my journey as a developer, 
+                  I've done remote work for agencies, applications 
+                  for startups, and collaborated with talented people 
+                  to create digital products for both business and consumer use.
+                  I'm quietly confident, naturally curious, and perpetually
+                  working on improving my chops one design problem at a time.</p>
+                
               </div>
-              <p>
-                Develop excellent commercial awareness through client management
-                and participate in intensive training programme
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">June 2020 - July 2020</span>
             </div>
           </div>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Senior Project</h3>
-              <div class="subheading mb-3">Chulalongkorn University</div>
-              <p>
-                Learn and analyze the voltage control in distribution systems
-                with soloar power generation and battery energy storage systems
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">August 2019 - May 2020</span>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+          <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+        </div>
+        <ul class="list-inline dev-icons d-flex justify-content-center flex-wrap mb-4">
+          <li class="list-inline-item"><i class="bx bxl-html5"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-css3"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-javascript"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-react"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-redux"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-bootstrap"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-sass"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-android"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-figma"></i></li>
+          <li class="list-inline-item"><i class="bx bxl-nodejs"></i></li>
+          <li class="list-inline-item"><i class="fas fa-database"></i></li>
+        </ul>
+       
+        <div class='row'>
+          <div class="col-lg-4 ">
+            <h3 class="skills-title text-center mb-4">Front-End</h3>
+            <div class="content">
+              <ul  class="d-inline">
+                <li><i class="icofont-rounded-right"></i>Html</li>
+                <li><i class="icofont-rounded-right"></i>Css </li>
+                <li><i class="icofont-rounded-right"></i>Javascript </li>
+                <li><i class="icofont-rounded-right"></i>React</li>
+                <li><i class="icofont-rounded-right"></i>Redux</li>
+                <li><i class="icofont-rounded-right"></i>MobX</li>
+                <li><i class="icofont-rounded-right"></i>Bootstrap</li>
+                <li><i class="icofont-rounded-right"></i>Sass</li>
+                <li><i class="icofont-rounded-right"></i>Figma</li>
+              </ul>
             </div>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Electrical Engineer Intern</h3>
-              <div class="subheading mb-3">Site83 co., ltd</div>
+          <div class="col-lg-4">
+            <h3 class="skills-title text-center mb-4">Back-End</h3>
+            <div class="content">
+              <ul>
+                <li><i class="icofont-rounded-right"></i>SQL & NoSQL</li>
+                <li><i class="icofont-rounded-right"></i>MongoDB</li>
+                <li><i class="icofont-rounded-right"></i>Express.JS</li>
+                <li><i class="icofont-rounded-right"></i>Passport.JS</li>
+                <li><i class="icofont-rounded-right"></i>Socket.io</li>
+                <li><i class="icofont-rounded-right"></i>JSON Web Tokens</li>
+                <li><i class="icofont-rounded-right"></i>PostMan</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 ">
+            <h3 class="skills-title text-center mb-4">Mobile App</h3>
+            <div class="content">
+              <ul>
+                <li><i class="icofont-rounded-right"></i>React Native</li>
+                <li><i class="icofont-rounded-right"></i>Expo-cli</li>
+                <li><i class="icofont-rounded-right"></i>Cross-Platform Mobile Applications</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          <!-- 
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">NODE JS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">REACT <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MYSQL <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor degree &amp; Engineering</h4>
+              <h5>2016 - 2019</h5>
+              <p><em>Chulalongkorn University</em></p>
               <ul>
                 <li>
-                  Design all of electrical system for condominium, restaurant
-                  and office
+                  <p>Electrical Engineering</p>
                 </li>
                 <li>
-                  Gain new knowledge and experience in assinilation of real work
+                  <p>Overall Grade : 3.61 (First Class honors)</p>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>CodeCamp Fullstack Developer #7</h4>
+              <h5>Sep - Dec 2020</h5>
+              <p><em>Software Park, bangkok</em></p>
+
+              <ul>
+                <li>
+                  <p>Study about the basic html, css, javaScript and bootstrap framework. </p>
+                </li>
+                <li>
+                  <p>Study front-end React Framework and Manage Stage React-Hook, Redux . </p>
+                </li>
+                <li>
+                  <p>Study back-end nodejs, express, Restful-API, Sequelize, MongoDB, Mongoose, MySQL, NoSql. </p>
+                </li>
+                <li>
+                  <p>Study teamwork with Agile Scrum pattern.</p>
+                </li>
+                <li>
+                  <p>Study Cloud Server, Docker etc.</p>
                 </li>
               </ul>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">June 2019 - July 2019</span>
-            </div>
           </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Education-->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Education</h2>
-          <div
-            class="d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Chulalongkorn University</h3>
-              <div class="subheading mb-3">Bachelor of Engineering</div>
-              <div>Electrical Engineering</div>
-              <p>GPA: 3.61 &nbsp;&nbsp;<strong>First-Class honors</strong></p>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Work Experience</h3>
+            <div class="resume-item">
+              <h4>Front-End Developer</h4>
+              <h5>Jan, 2021 - present</h5>
+              <p><em>Rabbit Digital Group</em></p>
+              <ul>
+                <li>Develop mobile application on Android and IOS</li>
+                <li>Took initiative in learning react native and went on to successfully develop various features under minimal supervision.</li>
+                <li>Develop scalable, reusable components and front-end libraries</li>
+                <li>Experience working with Expo CLI/Mobx.</li>
+              </ul>
             </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">2016 - 2019</span>
-            </div>
-          </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between">
-            <div class="flex-grow-1">
-              <h3 class="mb-0">Suankularb wittayalai nonthaburi High School</h3>
-              <div class="subheading mb-3">Math-Science Program</div>
-              <p>GPA: 3.89</p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">2013-2015</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Skills-->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-2">Programming Languages & Tools</div>
-          <div class="subheading sub-2 mb-3">
-            Since 3 months of studying in code camp, I assessed myself how
-            skilled I am.
-          </div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-            <li class="list-inline-item"><i class="fab fa-react"></i></li>
-            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-            <li class="list-inline-item"><i class="fas fa-database"></i></li>
-            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
-            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-            <li class="list-inline-item"><i class="fab fa-python"></i></li>
-            <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-            <li class="list-inline-item"><i class="fab fa-figma"></i></li>
-            <li class="list-inline-item"><i class="fab fa-stack-overflow"></i></li>
-          </ul>
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Cross Browser Testing & Debugging
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Cross Functional Teams
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Agile Development & Scrum
-            </li>
-          </ul>
-        </div>
-      </section>
-      <hr class="m-0" />
-      <!-- Interests-->
-      <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Interests</h2>
           
-          
-          <div class="row grid" >
-            <div class="title py-0" style="text-align: center;width: 100%;">
-              <h3 class="text-uppercase">travel</h3>
-            </div>
-            <div class="row-picture">
-              <div class="w3-third col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class=" w3-card our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/IMG_5116.JPG"  class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/IMG_7432.jpg"  class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/IMG_5218.JPG"  class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-          <div class="mb-4"></div>
-          <div class="row grid">
-            <div  class="title py-0" style="text-align: center;width: 100%;">
-              <h3 class="text-uppercase">photography</h3>
-            </div> 
-            <div class="row-picture">
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/IMG_7761.jpg"  class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/IMG_20200129_175825.jpg"  class="img-fluid">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                      <a class="test-popup-link" >
-                        <img src="./assets/img/ปางอุ๋ง01.jpg"  class="img-fluid">
-                      </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mb-4"></div>
-          <div class="row grid">
-            <div class="title py-0" style="text-align: center;width: 100%;">
-              <h3 class="text-uppercase">sport</h3>
-            </div>
-            <div class="row-picture">
+        </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/pingpong.jpg"  class="img-fluid">
-                    </a>
-                  </div>
-                  <div class="title py-0">
-                  </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://scontent.fbkk3-1.fna.fbcdn.net/v/t1.6435-9/124781963_166033725253204_8654438524388371602_n.png?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeFlE7CeQLof7zExSCzIsiHuid4vxIMcUoSJ3i_EgxxShDBbbgOAa_g-DdBYwmisVdqdYNJfStzPqVDKHMHJ9QAm&_nc_ohc=zs1AP7xyhKkAX_6F-Tm&_nc_ht=scontent.fbkk3-1.fna&oh=a3e8fe97bd3adc510c4f01d23964bc05&oe=60BA9241"
+                alt="6f111603b55e107cbaa4bf39291cc101.png" border="0" class="img-fluid" />
+              <div class="portfolio-info">
+                <h4>Pickle Influencer <br> Marketing Platform</h4>
+                <div class="portfolio-links">
+                  <a href="https://onelink.to/4ez4dv" target="_blank" title="Pickle"><i class="bx bx-link"></i></a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                  <a class="test-popup-link" >
-                    <img src="./assets/img/154.jpeg"  class="test-popup-link img-fluid">
-                        </a>
-                  </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/software-park-thailand/image/upload/v1620317954/182987459_290482099475032_8223426636485067402_n_1_cuttmd.png"
+                alt="pickle.png" border="0" class="img-fluid" /></a>
+              <div class="portfolio-info">
+                <h4>Pickle Influencer for Brand</h4>
+                <div class="portfolio-links">
+                  <a href="https://onelink.to/ftnwb7" target="_blank" title="Pickle"><i
+                      class="bx bx-link"></i></a>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                <div class="our-project">
-                  <div class="img">
-                    <a class="test-popup-link" >
-                      <img src="./assets/img/football-2235372_960_720.webp"  class="img-fluid">
-                    </a>
-                  </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/software-park-thailand/image/upload/v1620319257/Screen_Shot_2564-05-06_at_23.40.30_y4fg6t.png"
+                alt="857b0e372f6d4f82f7943abe4fb9f933.png" border="0" class="img-fluid" />
+              <div class="portfolio-info">
+                <h4>Travel Web Blog</h4>
+                <div class="portfolio-links">
+                  <a href="https://github.com/WeerayoothM/holiyay-webblog" target="_blank" title="GitHub"><i
+                      class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
           
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/software-park-thailand/image/upload/v1620320321/Screen_Shot_2564-05-06_at_23.58.28_ropkjh.png"
+                alt="857b0e372f6d4f82f7943abe4fb9f933.png" border="0" class="img-fluid" />
+              <div class="portfolio-info">
+                <h4>Digital Wallet App</h4>
+                <div class="portfolio-links">
+                  <a href="https://github.com/WeerayoothM/LCRN09-digital-wallet" target="_blank" title="GitHub"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="https://res.cloudinary.com/software-park-thailand/image/upload/v1620319671/Screen_Shot_2564-05-06_at_23.47.29_agyybs.png"
+                alt="857b0e372f6d4f82f7943abe4fb9f933.png" border="0" class="img-fluid" />
+              <div class="portfolio-info">
+                <h4>Food Delivery App</h4>
+                <div class="portfolio-links">
+                  <a href="https://github.com/WeerayoothM/FoodDeliveryApp_react-native" target="_blank" title="GitHub"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
+
       </div>
-    </p>
+    </section><!-- End Portfolio Section -->
+
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
         </div>
-      </section>
-      <hr class="m-0" />
-      <!-- certifications-->
-      <section class="resume-section" id="certifications">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-              <a href="#">Software-Park Codecamp#7</a>
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-              <a href="https://drive.google.com/file/d/1mTl9j0C2oKK7H6GAT76_5TG6Zgo8MOlC/view?usp=sharing">Programming for Everybody (Getting Started with Python)</a>
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-              <a href="https://drive.google.com/file/d/1rYxU1DJVlpIsSMrtTgrmAgonGlWa0U0i/view?usp=sharing">The Data Scientist's Toolbox</a>
-             </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-              <a href="https://drive.google.com/file/d/12uSzlfeNlroknFHAnQ7SsDQQAsv3PuaD/view?usp=sharing">SQL for Data Science</a>
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-              <a href="https://drive.google.com/file/d/1eG4l8GwQo4pE9PzCENWENiFJSKzWdPD5/view?usp=sharing">Pitching Technique</a>
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-chevron-circle-right"></i></span>
-                <a href="https://drive.google.com/file/d/1bE7rdF-a2pDoFcRUhY_S0Lxw0mwAA8x1/view?usp=sharing">Design Thinking</a>
-            </li>
-          </li>
-          <li>
-            <span class="fa-li"
-              ><i class="fas fa-chevron-circle-right"></i></span>
-            <a href="https://drive.google.com/file/d/15Eu9mGL2xXsFsYEg_tnJBGgnuS8WwgJ0/view?usp=sharing">Digital Marketing</a>
-          </li>
-                      
-          </ul>
+
+        <div class="row mt-1">
+          <div class="col-lg-10">
+            <div class="info">
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>weerayooth.ma@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>084-882-6697</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-line-messenger"></i>
+                <h4>Line Messenger:</h4>
+                <p>weerayoothz</p>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
-      </section>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-  </body>
+
+      </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
